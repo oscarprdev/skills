@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "claude-code-atelier",
+  "owner": "martinffx",
+  "repo": "claude-code-atelier",
+  "path": "skills/typescript:effect-ts",
+  "branch": "main",
+  "sha": "382037279bbdd064b112a9e3a3f468f47f6b6a22",
+  "source": "manual"
+}
