@@ -15,6 +15,11 @@
       "source": "mattpocock/skills",
       "sourceType": "github",
       "computedHash": "ad055544599481182d0079c4198e85da26677cb408a677be2da04915375f0427"
+    },
+    "triage-issue": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "computedHash": "6834b87393bff8f529b3126b9f761c1c2b9706af8a784ad1061961c34bbdb4a9"
     }
   }
 }
