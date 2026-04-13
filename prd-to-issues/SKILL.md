@@ -9,6 +9,12 @@ Break a PRD into independently-grabbable GitHub issues using vertical slices (tr
 
 ## Process
 
+### 0. Guiding principles
+
+- **Minimal implementation detail**: When describing what to build in each issue, include only the details that are absolutely necessary to understand the scope and acceptance criteria. Avoid specifying file names, function signatures, or code structure. Focus on behaviors, contracts, and user-visible outcomes.
+- **Meaningful code references only**: If you must reference code, do so only when there is no other way to convey the requirement. Prefer describing what the code should do, not how it should be structured internally.
+- **Ask before major refactors**: If implementing a slice would require a large refactor or significant structural change to the codebase, flag this explicitly in the issue and ask the user if this is the proper approach or if they want to resolve it differently. Do not assume major refactors are acceptable.
+
 ### 1. Locate the PRD
 
 Ask the user for the PRD GitHub issue number (or URL).

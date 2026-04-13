@@ -9,6 +9,12 @@ Break a PRD into a phased implementation plan using vertical slices (tracer bull
 
 ## Process
 
+### 0. Guiding principles
+
+- **Minimal implementation detail**: When describing what to build in each phase, include only the details that are absolutely necessary to understand the scope and acceptance criteria. Avoid specifying file names, function signatures, or code structure unless they represent a durable architectural decision.
+- **Meaningful code references only**: If you must reference code, do so only when there is no other way to convey the requirement. Prefer describing behaviors, contracts, and user-visible outcomes.
+- **Ask before major refactors**: If implementing a phase would require a large refactor or significant structural change to the codebase, flag this explicitly in the plan and ask the user if this is the proper approach or if they want to resolve it differently. Do not assume major refactors are acceptable.
+
 ### 1. Confirm the PRD is in context
 
 The PRD should already be in the conversation. If it isn't, ask the user to paste it or point you to the file.

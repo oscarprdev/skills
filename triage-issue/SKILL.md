@@ -9,6 +9,12 @@ Investigate a reported problem, find its root cause, and create a GitHub issue w
 
 ## Process
 
+### 0. Guiding principles
+
+- **Minimal implementation detail**: When describing the fix plan, include only the details that are absolutely necessary to understand the approach. Avoid specifying file names, function signatures, or code structure unless they represent a critical architectural decision. Focus on behaviors, contracts, and user-visible outcomes.
+- **Meaningful code references only**: If you must reference code, do so only when there is no other way to convey the requirement. Prefer describing what the code should do, not how it should be structured internally.
+- **Ask before major refactors**: If fixing the issue would require a large refactor or significant structural change to the codebase, flag this explicitly in the issue and ask the user if this is the proper approach or if they want to resolve it differently. Do not assume major refactors are acceptable.
+
 ### 1. Capture the problem
 
 Get a brief description of the issue from the user. If they haven't provided one, ask ONE question: "What's the problem you're seeing?"

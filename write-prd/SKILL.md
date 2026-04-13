@@ -5,6 +5,12 @@ description: Create a PRD through user interview, codebase exploration, and modu
 
 This skill will be invoked when the user wants to create a PRD. You may skip steps if you don't consider them necessary.
 
+## Guiding principles
+
+- **Minimal implementation detail**: When describing implementation decisions, include only the details that are absolutely necessary to understand the approach. Avoid specifying file names, function signatures, or code structure unless they represent a critical architectural decision. Focus on behaviors, contracts, and user-visible outcomes.
+- **Meaningful code references only**: If you must reference code, do so only when there is no other way to convey the requirement. Prefer describing what the code should do, not how it should be structured internally.
+- **Ask before major refactors**: If the solution would require a large refactor or significant structural change to the codebase, flag this explicitly in the PRD and ask the user if this is the proper approach or if they want to resolve it differently. Do not assume major refactors are acceptable.
+
 1. Ask the user for a long, detailed description of the problem they want to solve and any potential ideas for solutions.
 
 2. Explore the repo to verify their assertions and understand the current state of the codebase.

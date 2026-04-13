@@ -20,6 +20,21 @@
       "source": "mattpocock/skills",
       "sourceType": "github",
       "computedHash": "6834b87393bff8f529b3126b9f761c1c2b9706af8a784ad1061961c34bbdb4a9"
+    },
+    "typescript-drizzle-orm": {
+      "source": "martinffx/atelier",
+      "sourceType": "github",
+      "computedHash": "838b43755257e38fc8cb9437b392804ea97a45bdb15df8d51f86fff44cc45f4a"
+    },
+    "typescript-fastify": {
+      "source": "martinffx/atelier",
+      "sourceType": "github",
+      "computedHash": "1838604df0e22c574551815bc50f9fdbe27fe87dcc5266d9c531033a9edf9c1b"
+    },
+    "typescript-functional-patterns": {
+      "source": "martinffx/atelier",
+      "sourceType": "github",
+      "computedHash": "5fc49c1f663318d8585a6ffcc111c94703b9a0cba593340f3f285036b8460bc3"
     }
   }
 }
