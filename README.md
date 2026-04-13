@@ -8,15 +8,48 @@ This repository contains reusable skills that enhance AI coding assistants with 
 
 ## Quick Start
 
-### Installation
+### Installation via Skillfish (Recommended)
+
+[Skillfish](https://github.com/knoxgraeme/skillfish) is a CLI tool for managing AI agent skills across 32+ supported agents.
+
+**1. Install Skillfish:**
+```bash
+npm i -g skillfish
+# Or use npx without installation
+```
+
+**2. Install all skills from this repository:**
+```bash
+skillfish add <your-username>/skills --all
+```
+
+This will automatically detect your AI coding agents (Claude Code, Cursor, Copilot, etc.) and install all skills to the appropriate directories.
+
+**Install a specific skill:**
+```bash
+skillfish add <your-username>/skills react-best-practices
+```
+
+**Install skills to a specific location:**
+```bash
+skillfish add <your-username>/skills --all --project   # Current project only
+skillfish add <your-username>/skills --all --global    # Home directory
+```
+
+**Update skills:**
+```bash
+skillfish add <your-username>/skills --all --force
+```
+
+### Manual Installation
 
 **For Claude Code:**
 ```bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/skills.git
 
-# Skills are located in the root directory
-cd skills
+# Skills are located in the skills/ directory
+cd skills/skills
 ```
 
 **For Qwen Code:**
@@ -30,6 +63,8 @@ Each skill is designed to be loaded by AI coding assistants when specific tasks 
 - `.skillfish.json` - Skill metadata for skillfish package manager (if applicable)
 
 ## Available Skills
+
+All skills are located in the `skills/` directory. Here's what's available:
 
 ### Cloud & Infrastructure
 
@@ -91,11 +126,12 @@ Each skill is designed to be loaded by AI coding assistants when specific tasks 
 Each skill follows a standard structure:
 
 ```
-skill-name/
-├── SKILL.md              # Main skill definition
-├── references/           # Detailed reference docs (optional)
+skills/
+├── skill-name/
+│   ├── SKILL.md              # Main skill definition
+│   ├── references/           # Detailed reference docs (optional)
 │   └── ...
-└── .skillfish.json       # Skill metadata (optional)
+└── ...
 ```
 
 ### SKILL.md Format
@@ -125,7 +161,7 @@ Links to detailed documentation.
 
 Contributions are welcome! To add a new skill:
 
-1. Create a new directory under the root with the skill name
+1. Create a new directory under `skills/` with the skill name
 2. Add a `SKILL.md` file with the skill definition
 3. Add reference documentation in a `references/` subdirectory if needed
 4. Follow the existing skill structure and formatting
