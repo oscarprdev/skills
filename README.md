@@ -15,7 +15,6 @@ This repository contains reusable skills that enhance AI coding assistants with 
 **1. Install Skillfish:**
 ```bash
 npm i -g skillfish
-# Or use npx without installation
 ```
 
 **2. Install all skills from this repository:**
@@ -48,8 +47,8 @@ skillfish add <your-username>/skills --all --force
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/skills.git
 
-# Skills are located in the skills/ directory
-cd skills/skills
+# Skills are located in the root directory
+cd skills
 ```
 
 **For Qwen Code:**
@@ -123,14 +122,16 @@ All skills are located in the `skills/` directory. Here's what's available:
 
 ## Skill Structure
 
-Each skill follows a standard structure:
+Each skill follows a standard structure at the root level:
 
 ```
-skills/
+<repo-root>/
 ├── skill-name/
 │   ├── SKILL.md              # Main skill definition
 │   ├── references/           # Detailed reference docs (optional)
 │   └── ...
+├── another-skill/
+│   └── SKILL.md
 └── ...
 ```
 
@@ -161,7 +162,7 @@ Links to detailed documentation.
 
 Contributions are welcome! To add a new skill:
 
-1. Create a new directory under `skills/` with the skill name
+1. Create a new directory at the root with the skill name
 2. Add a `SKILL.md` file with the skill definition
 3. Add reference documentation in a `references/` subdirectory if needed
 4. Follow the existing skill structure and formatting
