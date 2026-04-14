@@ -1,6 +1,141 @@
 {
   "version": 1,
   "skills": {
+    "ai-ui-patterns": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "3f0d503a933b18b2c3845703be1844ae15f5141c110fcd7773ef339ecb3e8ee1"
+    },
+    "async-components": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "760d1e4f465d9dd0aa761686e65fd3dbae92be2c591fd2d4d295bfceadb4a35c"
+    },
+    "bundle-splitting": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "a594e0f7b1a62723d51a1a6553a4069f92ada46334169d1d1285a6f7c683f14f"
+    },
+    "client-side-rendering": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "1c1861f040f29e2503b7517e274eb58f841d5ea5c9042cb17013a71a18d89db3"
+    },
+    "command-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "dd1808dde553a7bfa94c6551db00a2aed5977c4dcdbe136946947fe42b546ac3"
+    },
+    "components": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "0c8309c9e7b943995474e297940b8a553c7bd5c84d29863f6d011371ecd0a8d3"
+    },
+    "composables": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "0080db2e93b381c3f1cba8118e9396d6c63ec3dec5a9892bf21f1cc024afe27b"
+    },
+    "compound-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "a0e517445e0f72e2fc9432b6cd263de2c2b91d82746e2d3e94f301a0eeec9350"
+    },
+    "compression": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "a6a95aecbb0924e11e360fbf05874ac34d9f0ef4e2a83e58c5c57f2a8544a4f6"
+    },
+    "container-presentational": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "c79ff7a3b0d9f7971b7812e4bdaf8a5366baca43155c456096998dfe8dc4764a"
+    },
+    "data-provider": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "50e76ede3192bdb98b36044defbb87a8e875d7076d7d550371e2459a7af0b687"
+    },
+    "dynamic-components": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "d15427b1b362b7b7d725b66a8e1c52be4b856a17330c8149ab24061754a9c248"
+    },
+    "dynamic-import": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "61e16cb2deef2596a9ff7f677119207a1cd38d91578790b24b65e26b20c52af7"
+    },
+    "factory-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "ddd7b0ad4377c28cd78fbef9a438f9f903bba6ad15169856a4f3ca01a6489b42"
+    },
+    "flyweight-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "b106756b8d43053b657a0afc748989b35adac843e855fc0815e78d9115b7e75c"
+    },
+    "hoc-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "2bb2a15249ce88d9b752617b5ebaafd5cee57e04e372872383885a1c58b33434"
+    },
+    "hooks-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "cd45ce7364ac8596391822f37b8e2867e564c0f6a6a071813ba17dc36616fb62"
+    },
+    "import-on-interaction": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "d62a78d464442a51517a4a5e14733f6fb695a0fb1099a452f506cceff5bfe75a"
+    },
+    "import-on-visibility": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "280c99c0ab624cbc5f90acc834983ad8863aac5eb4ecf1a7a7482b51fce68699"
+    },
+    "incremental-static-rendering": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "9d0cc8576329564e20b5a47cd7c0d9f5803d99e9a602f22ca894f0ea7ebc465c"
+    },
+    "islands-architecture": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "94a164fcb48cac66da5714e16a848fbf12581eed2df3d2d7e042a51951a79772"
+    },
+    "js-performance-patterns": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "288eedae3ef9338c60f5f3d9a894c41fb6a6a46e45cb829478f3e8e31ba1eff4"
+    },
+    "loading-sequence": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "00b74ec391118c3601c01d53de9bf57ab78a7e8f4daa1e687a925a5077ff86b8"
+    },
+    "mediator-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "fe851cc3771f8726eb7388da988a6aae8343bf0a0a3652c0c914f6330675dace"
+    },
+    "mixin-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "cc089075fa33209356faf287dfe780ceab30fa6b18ca1bb5973efe07176fe04e"
+    },
+    "module-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "3bd8f0a36c14a3111e46533e68acf436caa4d5ea36fe5c541c8c62518dd159eb"
+    },
+    "observer-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "b41b4dd569e0c4339c14b616f58eaaa3e572bd66d820b3a311dad61b7534ed59"
+    },
     "prd-to-issues": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -11,10 +146,150 @@
       "sourceType": "github",
       "computedHash": "b0fad4a6e8097a5095fe00bfc2ebd98827c2d599e8b0a974c9d3c50b59295ac8"
     },
+    "prefetch": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "f57acf2f4e7c8694b0e2ac4825e0c5af90b8e8bd6e4da789b0670c08abacde27"
+    },
+    "preload": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "a9b6a00d3826c327a7c16879324310577cec0ef38d9ab85e49d8123470d3e95e"
+    },
+    "presentational-container-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "f5ceda69bb0f1c78f3cb2c290a8d86ae129c3adcdd6ea68e6c43d809faf41b37"
+    },
+    "progressive-hydration": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "8d33053c22004cf63e6ce2d90d94d3aba24a7e8422d6c9f1940f724e2caa1d9f"
+    },
+    "prototype-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "ee228ab70856199b42f2731dee70735ac423a452e0d90eb608a20bda3509fcf9"
+    },
+    "provide-inject": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "a925085b5c8654f9038387cc4e8f5ead05998e9ba823cb47ce62acfb0c9df0e6"
+    },
+    "provider-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "e8df785e3f9ae16701248a25ff4e5825815bb2c5f51a4df0e267c087290394d8"
+    },
+    "proxy-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "ef489db1097f1dd71f77422d7547ff1dfa37820361915587deb1ee392d5b6d02"
+    },
+    "prpl": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "1154e04f539427cb6bddac14fa434d73cf91f74317e6e4784fcaa349a956b43d"
+    },
+    "react-2026": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "dab7e62596165bffb42474e6f2aad7d8ca632e7a26881c1d016dc9da31b30f41"
+    },
+    "react-composition-2026": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "7336986263159d4760a57005581f1a4c282cf1d2440dc720298da345747191e9"
+    },
+    "react-data-fetching": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "9cc8025b2571a86d0c71489d8e7fefa47a1a9136699cee2868d62266be257cc9"
+    },
+    "react-render-optimization": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "3d5571008383de39ea2cd6b2a7367afaf3f75f4c315c47fddbd4d63c6664214f"
+    },
+    "react-selective-hydration": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "9e62022c86de09d84e8950b6d2f806005a74fca5c8192880e99eb50c03a8b588"
+    },
+    "react-server-components": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "6e6087014110753acec09e642215177237c99ca4c05c227fb0a249ef0ad650b5"
+    },
+    "render-functions": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "5108c9b77378a14d61339df629f6cd7ce915db6911761dee4d83592f75ec6dc2"
+    },
+    "render-props-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "e3fed62f60a4fc1cf5e729626594415f53e2bbe7fd9c0218470005d9d0951b53"
+    },
+    "renderless-components": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "d20ea8fd667e9307cb6222320d3d5c72a24737803248b2f12c172a2eb359ec93"
+    },
+    "route-based": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "bb648f6b4cec48f222583d948d2e78eb315f91181d6e06b7ab7a971c85e9a442"
+    },
+    "script-setup": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "b83efa15c67e312d19d312474da7fb00f02cb1b635137e092a1442a98cdf27e1"
+    },
+    "server-side-rendering": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "e315f6baf830f171bedb1a8ac9beee4f8b19ff4c3c2b49d7dbac74450ad99d61"
+    },
+    "singleton-pattern": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "9591ac6274081901b832c5838975787ccea3c0b06db02301c120d994d93fd8ba"
+    },
+    "state-management": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "9ec934b81aea9c8857bbeff466934d43099b0bfdaf3243f0b97314586bde36d5"
+    },
+    "static-import": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "4d647493a362fc20ab1bc1c904de3edff0990c1b904f8ce25c29725d66e5fec2"
+    },
+    "static-rendering": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "97ddac24b3294d6b9db99d7af50af94370560744ec5869be1b7420181bbc7b4d"
+    },
+    "streaming-ssr": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "75566813f2b4245c9d5814e9a97b008edd521611d9786c8b53c531cf522fd293"
+    },
     "tdd": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "computedHash": "ad055544599481182d0079c4198e85da26677cb408a677be2da04915375f0427"
+    },
+    "third-party": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "ccfa7e5c497fa80c7853ffd57f47ec3dcba2939160d01c0e516db75b960eaaed"
+    },
+    "tree-shaking": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "0ec11b1032cfba634904985cd4e23b44508b3320dafbe4321368b3e4b8018690"
     },
     "triage-issue": {
       "source": "mattpocock/skills",
@@ -35,6 +310,21 @@
       "source": "martinffx/atelier",
       "sourceType": "github",
       "computedHash": "5fc49c1f663318d8585a6ffcc111c94703b9a0cba593340f3f285036b8460bc3"
+    },
+    "view-transitions": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "8ae8a6ae0cd34966515f7bb1cfa9e3b640424865bd1fc380d72431999a65cb3b"
+    },
+    "virtual-lists": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "c58d346015a97ae08dcb8138f824d694e077e20143c5c1cda9f8bf87cd00ce55"
+    },
+    "vite-bundle-optimization": {
+      "source": "PatternsDev/skills",
+      "sourceType": "github",
+      "computedHash": "d4ed10a5293f5b2beccb857907e01917301b0644182eeb74c2fa1c32f62e17f3"
     }
   }
 }
