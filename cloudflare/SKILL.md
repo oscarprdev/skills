@@ -1,6 +1,10 @@
 ---
 name: cloudflare
-description: Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.
+description: |
+  Entry point for the Cloudflare platform. Covers Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK),
+  networking, security, and infrastructure-as-code. This parent skill also links to focused child skills for Wrangler,
+  Workers best practices, and Durable Objects. Not user-invocable directly — load child skills or references as needed.
+user-invocable: false
 references:
   - workers
   - pages
@@ -226,3 +230,11 @@ Need IaC? → pulumi/ (Pulumi), terraform/ (Terraform), or api/ (REST API)
 | Static Assets | `references/static-assets/` |
 | Bindings | `references/bindings/` |
 | Cache Reserve | `references/cache-reserve/` |
+
+## Child Skills
+
+| Skill | Description | Goal | Location |
+|-------|-------------|------|----------|
+| wrangler | Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. | Ensure correct wrangler syntax and best practices. | skills/wrangler/SKILL.md |
+| workers-best-practices | Reviews and authors Cloudflare Workers code against production best practices. | Write or review Workers code, configure wrangler.jsonc, avoid anti-patterns. | skills/workers-best-practices/SKILL.md |
+| durable-objects | Create and review Cloudflare Durable Objects. | Build stateful coordination, implement RPC, SQLite storage, alarms, WebSockets. | skills/durable-objects/SKILL.md |
